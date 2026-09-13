@@ -1,7 +1,12 @@
 --SQLQuery2-SELECT.sql
-USE PV_522_DDL;
+USE PV_522_Import;
 
-ALTER TABLE		Groups
-ALTER COLUMN	start_time TIME(0) NOT NULL;
+--ALTER TABLE		Groups
+--ALTER COLUMN	start_time TIME(0) NOT NULL;
 
-SELECT * FROM Groups;
+SELECT
+		group_name		AS	N'Группа',
+		direction_name	AS	N'Направление обучения'
+FROM	Groups,Directions
+WHERE	direction=direction_id
+;
