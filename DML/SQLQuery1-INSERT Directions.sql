@@ -13,14 +13,16 @@ USE PV_522_DDL;
 --		;
 
 
-INSERT Directions
-VALUES
-		( 4, N'Java development'),
-		( 5, N'C++ development'),
-		( 6, N'Python development'),
-		( 7, N'GameDev'),
-		( 8, N'Android development'),
-		( 9, N'.NET development'),
-		(10, N'Web development')
-		;
+--INSERT Directions
+--VALUES
+--		( 4, N'Java development'),
+--		( 5, N'C++ development'),
+--		( 6, N'Python development'),
+--		( 7, N'GameDev'),
+--		( 8, N'Android development'),
+--		( 9, N'.NET development'),
+--		(10, N'Web development')
+--		;
+
+
 SELECT * FROM Directions;	-- * - все поля
