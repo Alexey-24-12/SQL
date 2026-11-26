@@ -58,6 +58,12 @@
           <AssociatedConnUserName />
           <FullPath>SQLQuery5-ALL_IN_ONE.sql</FullPath>
         </FileNode>
+        <FileNode Name="SQLQuery5-ALTER Schedule.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-POIR8NK\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-POIR8NK\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery5-ALTER Schedule.sql</FullPath>
+        </FileNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
